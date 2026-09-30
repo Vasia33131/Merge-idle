@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62a1c53a36e09c429a72c66f8ef3e11, type: 3}
+  m_Name: Upgrade_offline_hours
+  m_EditorClassIdentifier: 
+  id: offline_hours
+  nameKey: upg_offline_time_name
+  effect: 2
+  value: 1
+  basePrice: 1000
+  priceGrowth: 2.5
+  maxLevel: 10
+  unlockAtCatLevel: 1
+  color: {r: 0.56078434, g: 0.65882355, b: 0.9098039, a: 1}

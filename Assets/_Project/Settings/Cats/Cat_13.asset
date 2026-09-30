@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 406b919e9fda80542a7f150253255583, type: 3}
+  m_Name: Cat_13
+  m_EditorClassIdentifier: 
+  level: 13
+  nameKey: cat_13_name
+  descKey: cat_13_desc
+  sprite: {fileID: 21300000, guid: 7a7e477b1bf460b4fa3ad9dcc50f7e03, type: 3}
+  color: {r: 0.2834718, g: 0.34845656, b: 0.62632537, a: 1}
+  incomePerSec: 95428.95666168221
+  meowClip: {fileID: 0}

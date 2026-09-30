@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524e3272b9bc71a4e8db07930373ad2c, type: 3}
+  m_Name: HomeDatabase
+  m_EditorClassIdentifier: 
+  homes:
+  - nameKey: home_01_name
+    wallColor: {r: 0.93, g: 0.87, b: 0.8, a: 1}
+    floorColor: {r: 0.78, g: 0.64, b: 0.5, a: 1}
+    floorSprite: {fileID: 0}
+  - nameKey: home_02_name
+    wallColor: {r: 0.87, g: 0.92, b: 0.8, a: 1}
+    floorColor: {r: 0.66, g: 0.52, b: 0.36, a: 1}
+    floorSprite: {fileID: 0}
+  - nameKey: home_03_name
+    wallColor: {r: 0.83, g: 0.91, b: 0.95, a: 1}
+    floorColor: {r: 0.91, g: 0.82, b: 0.62, a: 1}
+    floorSprite: {fileID: 0}
+  - nameKey: home_04_name
+    wallColor: {r: 0.93, g: 0.88, b: 0.93, a: 1}
+    floorColor: {r: 0.56, g: 0.42, b: 0.33, a: 1}
+    floorSprite: {fileID: 0}
+  - nameKey: home_05_name
+    wallColor: {r: 0.86, g: 0.86, b: 0.91, a: 1}
+    floorColor: {r: 0.62, g: 0.62, b: 0.68, a: 1}
+    floorSprite: {fileID: 0}

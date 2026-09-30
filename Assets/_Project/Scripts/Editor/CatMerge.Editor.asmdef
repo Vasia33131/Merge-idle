@@ -1,0 +1,21 @@
+{
+    "name": "CatMerge.Editor",
+    "rootNamespace": "CatMerge.Editor",
+    "references": [
+        "CatMerge",
+        "CatMerge.Core",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
