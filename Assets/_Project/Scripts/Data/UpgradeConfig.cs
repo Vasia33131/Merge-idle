@@ -25,6 +25,9 @@ namespace CatMerge.Data
         [Min(1)] public int unlockAtCatLevel = 1;
         [Tooltip("Swatch color in the panel.")]
         public Color color = Color.white;
+        [Tooltip("Optional pictures of the item this upgrade puts in the room, one per stage (first = first third " +
+                 "of the levels...). Empty keeps a tinted placeholder square in 3 stages. 1 unit across = 1 world unit.")]
+        public Sprite[] propSprites = new Sprite[0];
 
         public UpgradeDef ToDef() => new UpgradeDef(id, effect, value, basePrice, priceGrowth, maxLevel, unlockAtCatLevel);
 

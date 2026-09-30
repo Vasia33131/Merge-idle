@@ -16,6 +16,9 @@ namespace CatMerge.Data
         [Tooltip("Optional floor picture; empty keeps the placeholder square. Tinted by Floor Color and stretched " +
                  "over the room, so import it as 1 unit across (Pixels Per Unit = width).")]
         public Sprite floorSprite;
+        [Tooltip("Optional floor picture for portrait screens (the room is taller there, so one picture would " +
+                 "stretch). Empty falls back to Floor Sprite. Same import rule: 1 unit across.")]
+        public Sprite floorSpritePortrait;
     }
 
     /// <summary>
